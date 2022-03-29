@@ -1,0 +1,37 @@
+mysql> use Hotwax2;
+Database changed
+mysql> show tables;
++-------------------+
+| Tables_in_hotwax2 |
++-------------------+
+| party             |
+| userlogin         |
++-------------------+
+2 rows in set (0.23 sec)
+
+mysql> desc party;
++-----------+-------------+------+-----+---------+----------------+
+| Field     | Type        | Null | Key | Default | Extra          |
++-----------+-------------+------+-----+---------+----------------+
+| Partyid   | int         | NO   | PRI | NULL    | auto_increment |
+| FirstName | varchar(30) | NO   |     | NULL    |                |
+| LastName  | varchar(30) | NO   |     | NULL    |                |
+| Address   | varchar(30) | NO   |     | NULL    |                |
+| City      | varchar(30) | NO   |     | NULL    |                |
+| ZipCode   | varchar(30) | NO   |     | NULL    |                |
+| State     | varchar(30) | NO   |     | NULL    |                |
+| Country   | varchar(30) | NO   |     | NULL    |                |
+| phone     | varchar(12) | NO   |     | NULL    |                |
++-----------+-------------+------+-----+---------+----------------+
+9 rows in set (0.00 sec)
+
+mysql> desc userlogin;
++-------------+-------------+------+-----+---------+----------------+
+| Field       | Type        | Null | Key | Default | Extra          |
++-------------+-------------+------+-----+---------+----------------+
+| UserLoginId | int         | NO   | MUL | NULL    | auto_increment |
+| Password    | varchar(30) | NO   |     | NULL    |                |
++-------------+-------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
+
+mysql>
