@@ -1,0 +1,112 @@
+   #ep
+   {
+       padding: 20dp;
+       color: blue;
+       background: #e2e2e2;
+       padding: 0px;
+       margin: 0px;
+   }
+   #mymenu
+   {
+   background : rgba(0,0,0,0.5);
+   color : white;
+   text-align : right;
+   }
+   #data
+   {
+   margin-top : 40px;
+   }
+   table
+   {
+   background : rgba(0,0,0,0.5);
+   color : white;
+   font-size:20px;
+   }
+   #mymenu ul li
+   {
+   display:inline-block;
+   padding:20px;
+   }
+   #mymenu ul li a
+   {
+   color:white;
+   text-decoration:none;
+   }
+   body
+   {
+   background-image:url("Bg4.jpg");
+   background-repeat : no-repeat;
+   background-size : cover;
+   }
+   
+   #mymenu
+{
+background : rgba(0,0,0,0.5);   
+//background:rgba(51,44,67,0.8);
+color:white;
+//font-size:20px;
+text-align:right;
+}	   
+#mymenu ul li
+{
+display:inline-block;
+padding: 20px;
+}
+//#mymenu ul li:hover
+//{
+//color:1D152C;
+//background:white;
+//}
+//#data{
+//margin-top:160px;
+//margin-left:
+//}
+table
+{
+background : rgba(0,0,0,0.5);
+//background:rgba(0, 4, 66,0.7);
+color:white;
+font-size:20px;
+}
+body
+{
+background-image:url('Bg4.jpg');
+background-repeat:no-repeat;
+//background-size:contain;
+background-size:cover;
+}
+#b1
+{
+background-image:url('Bg5.jpg');
+background-repeat:no-repeat;
+//background-size:contain;
+background-size:cover;
+}
+#b2
+{
+background-image:url('Bg4.jpg');
+background-repeat:no-repeat;
+//background-size:contain;
+background-size:cover;
+}
+
+#button
+{
+color:1D152C;
+font-size:20px;
+}
+#button:hover
+{
+background-color:1D152C;
+color:white;
+}
+a
+{
+color:white;
+text-decoration:none;
+}
+a:hover
+{
+color:1D152C;
+//background-color:white;
+}
